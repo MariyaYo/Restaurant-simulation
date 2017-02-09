@@ -1,5 +1,5 @@
 package Klienti;
 
-public interface IStudent {
+public class IStudent {
 
 }
