@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Deserti extends Qstiq{
 	
-	private String [] names = {"Торта", "Сладолед", "Чийз кейк", "Макарони на фурна", 
-								"Мляко с ориз", "Крем карамел"};
+	private String [] names = {"Cake", "Icecream", "Cheese cake", "Macaron", 
+								"Donuts", "Creme caramel"};
 	Random rn = new Random();
 	public Deserti(){
 		int x = rn.nextInt(names.length);

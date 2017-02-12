@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Bezalkoholno extends Napitki{
 	
-	private String [] names = {"Кока кола", "Фанта", "Пепси", "Студен чай", "Чай", "Кафе",
-								"Капучино", "Мокачино", "Топъл шоколад"};
+	private String [] names = {"Koka kola", "Fanta", "Pepsi", "Ice tea", "Hot tea", "Caffe",
+								"Cappuccino", "Mochaccino", "Hot chocolate"};
 	Random rn = new Random();
 	public Bezalkoholno(){
 		int x = rn.nextInt(names.length);

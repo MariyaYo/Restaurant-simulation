@@ -4,12 +4,11 @@ import java.util.Random;
 
 public class Salati extends Qstiq {
 	
-	private String [] names = {"Салата с изпечено телешко", "Салата със запечено козе сирене",  
-								"Салата със запечени зеленчуци и Халуми", "Салата Табуле", 
-								"Айсберг с яйца от пъдпъдък, сушени домати и кедрови ядки",
-								"Салата Цезар", "Салата с рукола и моцарела",
-								"Салата със сьомга", "Гръцка салата", "Салата Капрезе",
-								"Салата Паезана", "Пикантна салата"};
+	private String [] names = {"GREEK SALAD", "CAESAR WITH CRISPY CALAMARI",  
+								"SALAD WITH QUINOA AND WHITE FISH", "SPINACH WITH QUINOA", 
+								"SPLENDOR SALAD", "FRESH GARDEN SALAD", "RIGOLETTO",
+								"SHOPSKA SALAD", "MOORISH CRUNCH SALAD", "WATERMELON & FETA SALAD",
+								"HALLOUMI WITH GRIDDLED VEGETABLES", "WILD RICE SALAD"};
 
 	Random rn = new Random();
 	public Salati(){

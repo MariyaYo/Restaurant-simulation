@@ -4,12 +4,13 @@ import java.util.Random;
 
 public class Osnovni extends Qstiq{
 	
-	private String [] names = {"Печено пилешко филе с билки",  "Печено пилешко филе с бадемов сос", 
-								"Прясна средиземноморска риба", "Филе от сьомга със сос Малтез",
-								"Задушена или пържена пастърва с билки", "Кълцана наденица с пържени картофи", 
-								"Шницел по виенски с пържени картофи", "Свинско бонфиле с моцарела", 
-								"Вратна пържола на скара (без кост)", "Патешко филе с гъбки", 
-								"Задушена или пържена пъстърва", "Печена агнешка плешка с винен сос"};
+	private String [] names = {"TENDER CHICKEN LOINS WITH ROASTED VEGETABLES",  
+								"CHICKEN ALFREDO WITH BOLETUS", 
+								"HOME MADE CHICKEN STEAK", "CRUNCHY FILLETS",
+								"FISH FILLETS IN PARMESAN", "SALMON WITH SPINACH", 
+								"SEAFOOD RISOTTO", "SHRIMP ON A PLATE", 
+								"BRAISED BEEF IN AROMATIC SAUCE", "STREAKY PORK WITH ROASTED POTATOES", 
+								"PORK RIBS WITH FRESH POTATOES", "MEATBALLS WITH MUSHROOM SAUCE"};
 
 	Random rn = new Random();
 	public Osnovni(){
