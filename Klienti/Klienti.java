@@ -13,11 +13,11 @@ import hraniInapitki.Qstiq;
 public abstract class Klienti {
 	String name;
 	double money;	
-	private String [] names = {"Ани", "Албена", "Анета", "Бисер", "Борислава", "Божидар", "Виолета", 
-			"Валентина", "Диана", "Донка", "Деси", "Елеонора", "Зоя", "Зорница",
-			"Златина", "Ива", "Иван", "Ивета", "Марина", "Михаел", "Мартин", 
-			"Пенка", "Павлина", "Пламен", "Светла", "Светлана", "Силвия", "Стела",
-			"Стефка", "Анелия"};
+	private String [] names = {"Ana", "Albena", "Aneta", "Biser", "Borislava", "Bojidar", "Violeta", 
+			"Valentin", "Diana", "Daniel", "Desislava", "Emil", "Zoya", "Zdravko",
+			"Zlatina", "Ivan", "Iva", "Iskren", "Marina", "Mihail", "Martin", 
+			"Petya", "Pablo", "Plamen", "Svetla", "Svetlina", "Stanislav", "Stela",
+			"Steff", "Anelia"};
 	Random rn = new Random();
 	ArrayList<Menu> menu = new ArrayList<Menu>();
 	Order order;
